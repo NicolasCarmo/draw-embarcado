@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="788" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    
+    <!-- Sensor DHT22 -->
+    <mxCell id="2" value="Sensor DHT22" style="shape=ellipse;fillColor=#FFD700;strokeColor=#000000;fontSize=12" vertex="1" parent="1">
+      <mxGeometry x="50" y="150" width="120" height="50" as="geometry" />
+    </mxCell>
+    
+    <!-- Microcontrolador ESP32 -->
+    <mxCell id="3" value="Microcontrolador ESP32" style="rounded=1;fillColor=#87CEFA;strokeColor=#000000;fontSize=12" vertex="1" parent="1">
+      <mxGeometry x="250" y="150" width="160" height="60" as="geometry" />
+    </mxCell>
+    
+    <!-- Wi-Fi Conexão -->
+    <mxCell id="4" value="Wi-Fi" style="shape=cloud;fillColor=#D3D3D3;strokeColor=#000000;fontSize=12" vertex="1" parent="1">
+      <mxGeometry x="500" y="100" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <!-- Servidor Remoto -->
+    <mxCell id="5" value="Servidor Remoto" style="shape=cylinder;fillColor=#A9A9A9;strokeColor=#000000;fontSize=12" vertex="1" parent="1">
+      <mxGeometry x="650" y="100" width="120" height="80" as="geometry" />
+    </mxCell>
+    
+    <!-- Alarme (Buzzer/LED) -->
+    <mxCell id="6" value="Alarme (Buzzer/LED)" style="shape=hexagon;fillColor=#FF6347;strokeColor=#000000;fontSize=12" vertex="1" parent="1">
+      <mxGeometry x="250" y="300" width="160" height="60" as="geometry" />
+    </mxCell>
+    
+    <!-- Conexões -->
+    <mxCell id="7" edge="1" parent="1" source="2" target="3" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#000000">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="8" edge="1" parent="1" source="3" target="4" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#000000">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="9" edge="1" parent="1" source="4" target="5" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#000000">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="10" edge="1" parent="1" source="3" target="6" style="edgeStyle=elbowEdgeStyle;rounded=1;strokeColor=#000000">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
